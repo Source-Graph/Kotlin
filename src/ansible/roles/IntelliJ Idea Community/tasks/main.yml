@@ -1,0 +1,6 @@
+---
+- name: Install IntelliJ Idea Community
+  community.general.pacman:
+    name:
+      - intellij-idea-community-edition
+    state: present

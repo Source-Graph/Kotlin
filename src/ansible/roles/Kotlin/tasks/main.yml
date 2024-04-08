@@ -1,0 +1,6 @@
+---
+- name: Install Kotlin
+  community.general.pacman:
+    name:
+      - kotlin
+    state: present
